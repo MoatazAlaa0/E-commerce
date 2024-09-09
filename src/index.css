@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-main{
+    background-image:linear-gradient(
+        to top,
+        rgba(0, 0, 0,0.5),
+        rgba(0, 0, 0,0.5)
+    ), url(./assets/images/silkroadofnutsfruits.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.active{
+color: #422006 ;
+border-bottom: #422006  2px solid;
+border-radius: 0px;
+
+
+}
